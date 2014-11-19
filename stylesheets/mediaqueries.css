@@ -1,0 +1,115 @@
+￼/* Media queries css file */
+
+section {
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.resp-grid {
+	margin-right: -15px;
+	margin-left: -15px;
+}
+.mob-1, .tab-1, .pc-1,
+.mob-2, .tab-2, .pc-2,
+.mob-3, .tab-3, .pc-3,
+.mob-4, .tab-4, .pc-4,
+.mob-5, .tab-5, .pc-5,
+.mob-6, .tab-6, .pc-6,
+.mob-7, .tab-7, .pc-7,
+.mob-8, .tab-8, .pc-8,
+.mob-9, .tab-9, .pc-9,
+.mob-10, .tab-10, .pc-10,
+.mob-11, .tab-11, .pc-11,
+.mob-12, .tab-12, .pc-12 {
+	position: relative;;
+	min-height: 1px;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+/* Only mobile version */
+@media screen and (max-width: 767px) {
+section { width: 100%;}
+
+	.mob-1, .mob-2, .mob-3, .mob-4,
+	.mob-5, .mob-6, .mob-7, .mob-8,
+	.mob-9, .mob-10, .mob-11, .mob-12 {
+		float: left;
+	}
+	.mob-12 { width: 100%; }
+	.mob-11 { width: 91.66666667%; }
+	.mob-10 { width: 83.33333333%; }
+	.mob-9 { width: 75%; }
+	.mob-8 { width: 66.666666667%; }
+	.mob-7 { width: 58.333333333%; }
+	.mob-6 { width: 50%; }
+	.mob-5 { width: 41.666666667%; }
+	.mob-4 { width: 33%; }
+	.mob-3 { width: 25%; }
+	.mob-2 { width: 16.666666667%; }
+	.mob-1 { width: 8.33333333%; }
+}
+
+/* Mobile and tablet version */
+@media screen and (max-width: 1199px) {
+	#wrapper header,
+	#content #slider,
+	#container, footer 
+	 {
+			width:100%;
+	}
+}
+
+/* Only tablet version */
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+	.tab-1, .tab-2, .tab-3, .tab-4,
+	.tab-5, .tab-6, .tab-7, .tab-8,
+	.tab-9, .tab-10, .tab-11, .tab-12 {
+		float: left;
+	}
+	.tab-12 { width: 100%; }
+	.tab-11 { width: 91.66666667%; }
+	.tab-10 { width: 83.33333333%; }
+	.tab-9 { width: 75%; }
+	.tab-8 { width: 66.666666667%; }
+	.tab-7 { width: 58.333333333%; }
+	.tab-6 { width: 50%; }
+	.tab-5 { width: 41.666666667%; }
+	.tab-4 { width: 33%; }
+	.tab-3 { width: 25%; }
+	.tab-2 { width: 16.666666667%; }
+	.tab-1 { width: 8.33333333%; }
+}
+
+/* Computer and tablet version */
+@media screen and (min-width: 768px) {
+	
+}
+
+/* Only computer version */
+@media screen and (min-width: 1200px) {
+	.pc-1, .pc-2, .pc-3, .pc-4,
+	.pc-5, .pc-6, .pc-7, .pc-8,
+	.pc-9, .pc-10, .pc-11, .pc-12 {
+		float: left;
+	}
+	.pc-12 { width: 100%; }
+	.pc-11 { width: 91.66666667%; }
+	.pc-10 { width: 83.33333333%; }
+	.pc-9 { width: 75%; }
+	.pc-8 { width: 66.666666667%; }
+	.pc-7 { width: 58.333333333%; }
+	.pc-6 { width: 50%; }
+	.pc-5 { width: 41.666666667%; }
+	.pc-4 { width: 33%; }
+	.pc-3 { width: 25%; }
+	.pc-2 { width: 16.666666667%; }
+	.pc-1 { width: 8.33333333%; }
+}
+
+/* Print version */
+@media print {
+
+}
